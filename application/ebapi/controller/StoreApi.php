@@ -371,10 +371,10 @@ class StoreApi extends AuthController
         return JsonService::successful($routineHotSearch);
     }
 
-    public function getChannelCode($channel = "")
+    public function getChannelCode($goods_id, $channel = "")
     {
         if(!empty($channel)){
-            echo RoutineCode::getPageCode('pages/goods_details/index',"channel={$channel}",280);
+            echo RoutineCode::getPageCode('pages/goods_details/index',"id={$goods_id}&channel={$channel}",280);
         }else{
             echo "二维码生成失败";
         }
