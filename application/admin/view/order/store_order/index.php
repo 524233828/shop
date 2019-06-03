@@ -360,6 +360,7 @@
             {field: 'paid', title: '支付状态',templet:'#paid',width:'8%'},
             {field: 'status', title: '订单状态',templet:'#status',width:'8%'},
             {field: 'add_time', title: '下单时间',width:'10%',sort: true},
+            {field: 'channel', title: '下单渠道',width:'10%',sort: true},
             {field: 'right', title: '操作',align:'center',toolbar:'#act',width:'10%'},
         ];
     });
