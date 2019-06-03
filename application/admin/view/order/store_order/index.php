@@ -39,6 +39,12 @@
                                     </div>
                                 </div>
                                 <div class="layui-col-lg12">
+                                    <label class="layui-form-label">渠道好:</label>
+                                    <div class="layui-input-block">
+                                        <input type="text" name="channel" style="width: 50%" v-model="where.channel" placeholder="请输入渠道号" class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-col-lg12">
                                     <div class="layui-input-block">
                                         <button @click="search" type="button" class="layui-btn layui-btn-sm layui-btn-normal">
                                             <i class="layui-icon layui-icon-search"></i>搜索</button>
@@ -477,6 +483,7 @@
                     type:'',
                     real_name:real_name || '',
                     excel:0,
+                    channel:'',
                 },
                 showtime: false,
             },

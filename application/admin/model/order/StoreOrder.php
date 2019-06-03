@@ -426,6 +426,9 @@ HTML;
         if($where['real_name'] != ''){
             $model = $model->where($aler.'order_id|'.$aler.'real_name|'.$aler.'user_phone'.($join ? '|'.$join.'.nickname|'.$join.'.uid':''),'LIKE',"%$where[real_name]%");
         }
+        if(!empty($where['channel'])){
+            $model = $model->where($aler. 'channel', "=", $where['channel']);
+        }
         if($where['data'] !== ''){
             $model = self::getModelTime($where,$model,$aler.'add_time');
         }

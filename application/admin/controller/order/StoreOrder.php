@@ -76,7 +76,8 @@ class StoreOrder extends AuthController
             ['order',''],
             ['page',1],
             ['limit',20],
-            ['excel',0]
+            ['excel',0],
+            ['channel',0]
         ]);
         return JsonService::successlayui(StoreOrderModel::OrderList($where));
     }
