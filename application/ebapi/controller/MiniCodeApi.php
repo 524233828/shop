@@ -27,7 +27,8 @@ class MiniCodeApi extends Basic
 
         if(!empty($data)){
             $data = implode("&", $data);
-            echo RoutineCode::getPageCode($page, $data,1280);
+            header('Content-type: image/jpg');
+            echo RoutineCode::getPageCode($page, $data,1280);exit;
         }else{
             echo "二维码生成失败";
         }
