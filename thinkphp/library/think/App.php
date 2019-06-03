@@ -35,7 +35,7 @@ class App
     /**
      * @var bool 应用调试模式
      */
-    public static $debug = false;
+    public static $debug = true;
 
     /**
      * @var string 应用类库命名空间
