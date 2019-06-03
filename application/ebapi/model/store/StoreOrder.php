@@ -159,9 +159,10 @@ class StoreOrder extends ModelBasic
      * @param int $pinkId
      * @param int $seckill_id
      * @param int $bargain_id
+     * @param string $channel
      * @return bool|object
      */
-    public static function cacheKeyCreateOrder($uid,$key,$addressId,$payType,$useIntegral = false,$couponId = 0,$mark = '',$combinationId = 0,$pinkId = 0,$seckill_id=0,$bargain_id=0)
+    public static function cacheKeyCreateOrder($uid,$key,$addressId,$payType,$useIntegral = false,$couponId = 0,$mark = '',$combinationId = 0,$pinkId = 0,$seckill_id=0,$bargain_id=0, $channel = '')
     {
         if(!array_key_exists($payType,self::$payType)) return self::setErrorInfo('选择支付方式有误!');
         if(self::be(['unique'=>$key,'uid'=>$uid])) return self::setErrorInfo('请勿重复提交订单');
@@ -253,7 +254,8 @@ class StoreOrder extends ModelBasic
             'bargain_id'=>$bargain_id,
             'cost'=>$priceGroup['costPrice'],
             'is_channel'=>1,
-            'unique'=>$key
+            'unique'=>$key,
+            'channel'=>$channel,
         ];
         $order = self::set($orderInfo);
         if(!$order)return self::setErrorInfo('订单生成失败!');
