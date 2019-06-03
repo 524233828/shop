@@ -14,7 +14,7 @@ use app\core\model\routine\RoutineCode;
 class MiniCodeApi extends Basic
 {
 
-    public function getChannelCode($page = "pages/index", $goods_id = 0, $channel = "")
+    public function getChannelCode($page = "pages/index/index", $goods_id = 0, $channel = "")
     {
         $data = [];
         if(!empty($goods_id)){
