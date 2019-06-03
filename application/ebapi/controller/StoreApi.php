@@ -374,7 +374,7 @@ class StoreApi extends AuthController
     public function getChannelCode($goods_id, $channel = "")
     {
         if(!empty($channel)){
-            echo RoutineCode::getPageCode('pages/goods_details/index',"id={$goods_id}&channel={$channel}",280);
+            echo RoutineCode::getPageCode('pages/goods_details/index',"id={$goods_id}&channel={$channel}",1280);
         }else{
             echo "二维码生成失败";
         }
