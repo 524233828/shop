@@ -355,8 +355,10 @@ class StoreApi extends AuthController
         if(!file_exists($codePath)){
             if(!is_dir($path)) mkdir($path,0777,true);
             $data='id='.$id;
-            if($this->userInfo['is_promoter'] || SystemConfigService::get('store_brokerage_statu')==2) $data.='&pid='.$this->uid;
-            $res = RoutineCode::getPageCode('pages/goods_details/index',$data,280);
+            if($this->userInfo['is_promoter'] || SystemConfigService::get('store_brokerage_statu')==2){
+                $data.='&pid='.$this->uid;
+            }
+            $res = RoutineCode::getPageCode('pages/goods_details/index',$data,1280);
             if($res) file_put_contents($codePath,$res);
             else return JsonService::fail('二维码生成失败');
         }
@@ -371,10 +373,20 @@ class StoreApi extends AuthController
         return JsonService::successful($routineHotSearch);
     }
 
-    public function getChannelCode($goods_id, $channel = "")
+    public function getChannelCode($page = "pages/index", $goods_id = 0, $channel = "")
     {
+        $data = [];
+        if(!empty($goods_id)){
+            $data[] = "id={$goods_id}";
+        }
+
         if(!empty($channel)){
-            echo RoutineCode::getPageCode('pages/goods_details/index',"id={$goods_id}&channel={$channel}",1280);
+            $data[] = "channel={$channel}";
+        }
+
+        if(!empty($data)){
+            $data = implode("&", $data);
+            echo RoutineCode::getPageCode($page, $data,1280);
         }else{
             echo "二维码生成失败";
         }
