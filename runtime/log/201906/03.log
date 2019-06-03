@@ -1,0 +1,425 @@
+---------------------------------------------------------------
+[ 2019-06-03T16:39:27+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/index.php/admin/login/index
+[运行时间：0.117391s] [吞吐率：8.52req/s] [内存消耗：1,660.23kb] [文件加载：97]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index.php',
+    1 => 'admin',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8006/public/install/index.php?step=5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-03T16:39:35+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/index
+[运行时间：0.056970s] [吞吐率：17.55req/s] [内存消耗：2,129.57kb] [文件加载：108]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/chenyu/hosts/shop/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-03T16:39:36+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/captcha.html
+[运行时间：0.122744s] [吞吐率：8.15req/s] [内存消耗：2,056.41kb] [文件加载：109]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8006/admin/login/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function think\captcha\imagettftext()[/Users/chenyu/hosts/shop/vendor/topthink/think-captcha/src/Captcha.php:191]
+---------------------------------------------------------------
+[ 2019-06-03T16:39:44+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/captcha.html?1559551184000
+[运行时间：0.063831s] [吞吐率：15.67req/s] [内存消耗：2,056.74kb] [文件加载：109]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8006/admin/login/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  0 => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function think\captcha\imagettftext()[/Users/chenyu/hosts/shop/vendor/topthink/think-captcha/src/Captcha.php:191]
+---------------------------------------------------------------
+[ 2019-06-03T16:39:50+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/public/system/frame/css/bootstrap.min.css.map
+[运行时间：0.033358s] [吞吐率：29.98req/s] [内存消耗：1,659.91kb] [文件加载：97]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-03T16:39:51+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/index
+[运行时间：0.047154s] [吞吐率：21.21req/s] [内存消耗：1,992.48kb] [文件加载：106]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/chenyu/hosts/shop/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-03T16:39:52+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/captcha.html
+[运行时间：0.201442s] [吞吐率：4.96req/s] [内存消耗：2,056.48kb] [文件加载：109]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8006/admin/login/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function think\captcha\imagettftext()[/Users/chenyu/hosts/shop/vendor/topthink/think-captcha/src/Captcha.php:191]
+---------------------------------------------------------------
+[ 2019-06-03T16:39:52+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/public/system/frame/css/bootstrap.min.css.map
+[运行时间：0.034304s] [吞吐率：29.15req/s] [内存消耗：1,659.91kb] [文件加载：97]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-03T16:53:22+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/index
+[运行时间：0.099551s] [吞吐率：10.05req/s] [内存消耗：1,991.95kb] [文件加载：106]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/chenyu/hosts/shop/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-03T16:53:22+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/captcha.html
+[运行时间：0.062313s] [吞吐率：16.05req/s] [内存消耗：2,056.41kb] [文件加载：109]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8006/admin/login/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function think\captcha\imagettftext()[/Users/chenyu/hosts/shop/vendor/topthink/think-captcha/src/Captcha.php:191]
+---------------------------------------------------------------
+[ 2019-06-03T16:53:24+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/public/system/frame/css/bootstrap.min.css.map
+[运行时间：0.057639s] [吞吐率：17.35req/s] [内存消耗：1,659.91kb] [文件加载：97]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-03T16:53:26+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/index
+[运行时间：0.050720s] [吞吐率：19.72req/s] [内存消耗：1,992.48kb] [文件加载：106]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/chenyu/hosts/shop/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-03T16:53:26+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/admin/login/captcha.html
+[运行时间：0.085550s] [吞吐率：11.69req/s] [内存消耗：2,056.48kb] [文件加载：109]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8006/admin/login/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /Users/chenyu/hosts/shop/application/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function think\captcha\imagettftext()[/Users/chenyu/hosts/shop/vendor/topthink/think-captcha/src/Captcha.php:191]
+---------------------------------------------------------------
+[ 2019-06-03T16:53:26+08:00 ] 127.0.0.1 GET 127.0.0.1:8006/public/system/frame/css/bootstrap.min.css.map
+[运行时间：0.037978s] [吞吐率：26.33req/s] [内存消耗：1,659.91kb] [文件加载：97]
+[ info ] [ LANG ] /Users/chenyu/hosts/shop/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pmaUser-2=%7B%22iv%22%3A%22rpsM5ogqFG9cc8D0SYWB%2Bg%3D%3D%22%2C%22mac%22%3A%227df343daf2531437c1127ca01557b288bfb8b5b1%22%2C%22payload%22%3A%22dusFGE2bwtdX0gPaLflMGA%3D%3D%22%7D; pma_lang=zh_CN; pmaUser-1=%7B%22iv%22%3A%22mWwUj57D0D4y2WxqzURqpQ%3D%3D%22%2C%22mac%22%3A%22506ef9ee763a0ed1d54bb2f4d1efc4b5e306c0b6%22%2C%22payload%22%3A%22KsKA55vKqpYnMgGUG5Z4%2Bw%3D%3D%22%7D; phpMyAdmin=u3b35dc30bch5fcs4jfs7r1p3a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:8006',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
