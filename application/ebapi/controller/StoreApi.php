@@ -370,4 +370,14 @@ class StoreApi extends AuthController
         $routineHotSearch = GroupDataService::getData('routine_hot_search') ? :[];
         return JsonService::successful($routineHotSearch);
     }
+
+    public function getChannelCode($channel = "")
+    {
+        if(!empty($channel)){
+            echo RoutineCode::getPageCode('pages/goods_details/index',"channel={$channel}",280);
+        }else{
+            echo "二维码生成失败";
+        }
+
+    }
 }
