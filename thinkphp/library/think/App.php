@@ -15,6 +15,7 @@ use think\exception\ClassNotFoundException;
 use think\exception\HttpException;
 use think\exception\HttpResponseException;
 use think\exception\RouteNotFoundException;
+use think\response\Redirect;
 
 /**
  * App 应用管理
@@ -532,7 +533,8 @@ class App
                     $config['request_cache_except']
                 );
             } else {
-                throw new HttpException(404, 'module not exists:' . $module);
+                throw new HttpResponseException(\redirect("/wap"));
+                //throw new HttpException(404, 'module not exists:' . $module);
             }
         } else {
             // 单一模块部署
